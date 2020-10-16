@@ -1,0 +1,12 @@
+{
+  "author": "MrShiehX",
+  "contactInformation": "bntoylort@outlook.com",
+  "minecraftVersionsSupplierURL": "https://mcversions.net",
+  "authorWebsiteURL": "https://mrshieh-x.github.io",
+  "authorGithubURL": "https://www.github.com/MrShieh-X",
+  "appGithubRepoURL": "https://www.github.com/MrShieh-X/minecraft-versions-viewer",
+  "stableReleasesVersionsSourceURL": "https://gitee.com/MrShiehX/Repository/raw/master/mcvv/stableReleases.json",
+  "snapshotPreviewVersionsSourceURL": "https://gitee.com/MrShiehX/Repository/raw/master/mcvv/snapshotPreview.json",
+  "betaVersionsSourceURL": "https://gitee.com/MrShiehX/Repository/raw/master/mcvv/beta.json",
+  "alphaVersionsSourceURL": "https://gitee.com/MrShiehX/Repository/raw/master/mcvv/alpha.json"
+}

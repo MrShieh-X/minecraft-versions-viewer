@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preference_settings_interface_themes">
+        <item>亮主题</item>
+        <item>暗主题</item>
+    </string-array>
+    <string-array name="preference_settings_general_launch_page">
+        <item>稳定版</item>
+        <item>快照预览版</item>
+        <item>测试版</item>
+        <item>Alpha 版</item>
+    </string-array>
+    <string-array name="preference_settings_versions_sources">
+        <item>默认</item>
+        <item>自定义（来自互联网）</item>
+        <item>自定义（来自本地）</item>
+    </string-array>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preference_settings_category_display_interface_title">
+        <ListPreference
+            android:dialogTitle="@string/preference_settings_list_modify_theme_dialogtitle"
+            android:entries="@array/preference_settings_interface_themes"
+            android:entryValues="@array/preference_settings_interface_themes_values"
+            android:key="modify_theme"
+            android:defaultValue="light"
+            android:title="@string/preference_settings_list_modify_theme_title" />
+        <ListPreference
+            android:dialogTitle="@string/preference_settings_list_modify_language_dialogtitle"
+            android:entries="@array/preference_settings_interface_languages"
+            android:entryValues="@array/preference_settings_interface_languages_values"
+            android:key="modify_language"
+            android:title="@string/preference_settings_list_modify_language_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_settings_category_general_title">
+
+        <ListPreference
+            android:dialogTitle="@string/preference_settings_list_launch_page_dialogtitle"
+            android:entries="@array/preference_settings_general_launch_page"
+            android:entryValues="@array/preference_settings_general_launch_page_values"
+            android:key="launch_page"
+            android:title="@string/preference_settings_list_launch_page_title"
+            android:defaultValue="stable_release" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_settings_category_versions_sources_title">
+        <ListPreference
+            android:dialogTitle="@string/preference_settings_lists_versions_source_dialogtitle"
+            android:entries="@array/preference_settings_versions_sources"
+            android:entryValues="@array/preference_settings_versions_sources_values"
+            android:key="stable_releases_versions_source"
+            android:title="@string/preference_settings_list_stable_releases_versions_source_title"
+            android:defaultValue="default" />
+        <EditTextPreference
+            android:key="input_stable_releases_versions_source"
+            android:title="@string/preference_settings_edittext_input_stable_releases_versions_source_title"
+            android:hint="@string/preference_settings_edittexts_input_versions_source_hint"
+            android:summary="@string/preference_settings_edittexts_input_versions_source_hint"
+            android:dialogTitle="@string/preference_settings_edittext_input_stable_releases_versions_source_dialogtitle" />
+
+        <ListPreference
+            android:dialogTitle="@string/preference_settings_lists_versions_source_dialogtitle"
+            android:entries="@array/preference_settings_versions_sources"
+            android:entryValues="@array/preference_settings_versions_sources_values"
+            android:key="snapshot_preview_versions_source"
+            android:title="@string/preference_settings_list_snapshot_preview_versions_source_title"
+            android:defaultValue="default" />
+        <EditTextPreference
+            android:key="input_snapshot_preview_versions_source"
+            android:title="@string/preference_settings_edittext_input_snapshot_preview_versions_source_title"
+            android:hint="@string/preference_settings_edittexts_input_versions_source_hint"
+            android:summary="@string/preference_settings_edittexts_input_versions_source_hint"
+            android:dialogTitle="@string/preference_settings_edittext_input_snapshot_preview_versions_source_dialogtitle" />
+
+        <ListPreference
+            android:dialogTitle="@string/preference_settings_lists_versions_source_dialogtitle"
+            android:entries="@array/preference_settings_versions_sources"
+            android:entryValues="@array/preference_settings_versions_sources_values"
+            android:key="beta_versions_source"
+            android:title="@string/preference_settings_list_beta_versions_source_title"
+            android:defaultValue="default" />
+        <EditTextPreference
+            android:key="input_beta_versions_source"
+            android:title="@string/preference_settings_edittext_input_beta_versions_source_title"
+            android:hint="@string/preference_settings_edittexts_input_versions_source_hint"
+            android:summary="@string/preference_settings_edittexts_input_versions_source_hint"
+            android:dialogTitle="@string/preference_settings_edittext_input_beta_versions_source_dialogtitle" />
+
+        <ListPreference
+            android:dialogTitle="@string/preference_settings_lists_versions_source_dialogtitle"
+            android:entries="@array/preference_settings_versions_sources"
+            android:entryValues="@array/preference_settings_versions_sources_values"
+            android:key="alpha_versions_source"
+            android:title="@string/preference_settings_list_alpha_versions_source_title"
+            android:defaultValue="default" />
+        <EditTextPreference
+            android:key="input_alpha_versions_source"
+            android:title="@string/preference_settings_edittext_input_alpha_versions_source_title"
+            android:hint="@string/preference_settings_edittexts_input_versions_source_hint"
+            android:summary="@string/preference_settings_edittexts_input_versions_source_hint"
+            android:dialogTitle="@string/preference_settings_edittext_input_alpha_versions_source_dialogtitle" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
+
