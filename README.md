@@ -31,21 +31,21 @@ You can customize the version source in the settings.
 [View alpha version source at Gitee.com](https://gitee.com/MrShiehX/Repository/blob/master/mcvv/alpha.json) <br/>
 
 ### Format
-{
-  "minecraftStableReleases" (For this, the stable releases is "minecraftStableReleases", the snapshot preview is "minecraftSnapshotPreview", the beta version is "minecraftBeta", and the Alpha version is "minecraftAlpha"): [
-    {
-      "number": "67 (Release Order)",
-      "versionName": "1.16.3 (Version Name)",
-      "releaseDate": "2020-09-10 (Release Date)"
-    },
-    {
-      "number": "66 (Release Order)",
-      "versionName": "1.16.2 (Version Name)",
-      "releaseDate": "2020-08-11 (Release Date)"
-    }
-    More versions......
-  ]
-}
+{<br/>
+  "minecraftStableReleases" (For this, the stable releases is "minecraftStableReleases", the snapshot preview is "minecraftSnapshotPreview", the beta version is "minecraftBeta", and the Alpha version is "minecraftAlpha"): [<br/>
+    {<br/>
+      "number": "67 (Release Order)",<br/>
+      "versionName": "1.16.3 (Version Name)",<br/>
+      "releaseDate": "2020-09-10 (Release Date)"<br/>
+    },<br/>
+    {<br/>
+      "number": "66 (Release Order)",<br/>
+      "versionName": "1.16.2 (Version Name)",<br/>
+      "releaseDate": "2020-08-11 (Release Date)"<br/>
+    }<br/>
+    More versions......<br/>
+  ]<br/>
+}<br/>
 
 ## About Author
 MrShiehX<br/>
