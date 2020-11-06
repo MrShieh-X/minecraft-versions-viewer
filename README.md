@@ -24,7 +24,7 @@ You can set the language in the settings, the default language is English.
 - Simplified Chinese (China)
 
 ## Versions Sources
-You can customize the version source in the settings.
+You can customize the version source in the settings.<br/>
 [View stable releases version source at Gitee.com](https://gitee.com/MrShiehX/Repository/blob/master/mcvv/stableReleases.json) <br/>
 [View snapshot preview version source at Gitee.com](https://gitee.com/MrShiehX/Repository/blob/master/mcvv/snapshotPreview.json) <br/>
 [View beta version source at Gitee.com](https://gitee.com/MrShiehX/Repository/blob/master/mcvv/beta.json) <br/>
